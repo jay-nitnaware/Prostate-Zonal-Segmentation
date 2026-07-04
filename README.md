@@ -22,7 +22,7 @@ A PyTorch pipeline for automatic segmentation of prostate zonal anatomy from T2-
 ## Dataset
 
 - **Source:** [ProstateX Zones Segmentations](https://www.cancerimagingarchive.net/analysis-result/prostatex-seg-zones/) on The Cancer Imaging Archive (TCIA)
-- 98 patients, all 4 foreground zones present for every patient, no voxel overlap between zones (verified in the notebook)
+- 98 patients, all 4 foreground zones present for every patient, no voxel overlap between zones 
 - **MRI volumes:** `mri/ProstateX-XXXX/ProstateX-XXXX_0000.nii.gz` — shape `(384, 384, N)`, `int16`
 - **Masks:** one binary NIfTI file per zone per patient:
   - `masks/ProstateX-XXXX/AFMS.nii.gz`
